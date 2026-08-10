@@ -21,6 +21,7 @@
     "@biomejs/biome": "2.5.7",
     "@types/node": "26.2.0",
     "@types/vscode": "1.125.0",
+    "@vscode/vsce": "3.9.2",
     "pnpm": "11.20.0",
     "typescript": "7.0.2"
   },
