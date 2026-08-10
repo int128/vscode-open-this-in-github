@@ -1,16 +1,16 @@
 {
-  "name": "vscode-extension-helloworld",
+  "name": "vscode-open-this-in-github",
   "version": "1.0.0",
-  "description": "Hello World extension for Visual Studio Code",
+  "description": "Open this file in GitHub",
   "publisher": "int128",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "type": "module",
   "activationEvents": [],
   "contributes": {
     "commands": [
       {
-        "command": "extension.helloWorld",
-        "title": "Hello World"
+        "command": "extension.openThisInGitHub",
+        "title": "Open this in GitHub"
       }
     ]
   },
@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.7",
+    "@types/node": "26.2.0",
     "@types/vscode": "1.125.0",
     "pnpm": "11.20.0",
     "typescript": "7.0.2"

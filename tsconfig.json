@@ -4,6 +4,7 @@
     "target": "es2025",
     "module": "esnext",
     "allowImportingTsExtensions": true,
-    "noEmit": true
+    "noEmit": true,
+    "types": ["node"]
   }
 }
