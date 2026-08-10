@@ -4,16 +4,19 @@ import * as git from './git.ts'
 
 export const activate = (context: vscode.ExtensionContext) => {
   context.subscriptions.push(
-    vscode.commands.registerTextEditorCommand(
-      'extension.openThisInGitHub',
-      async (textEditor) => await openThisInGitHub(textEditor),
-    ),
+    vscode.commands.registerTextEditorCommand('extension.openThisInGitHub', async (textEditor) => {
+      try {
+        await openThisInGitHub(textEditor)
+      } catch (error) {
+        vscode.window.showErrorMessage(`Failed to open this in GitHub: ${error}`)
+        console.error(error)
+      }
+    }),
   )
 }
 
 const openThisInGitHub = async (textEditor: vscode.TextEditor) => {
   const githubURL = await getGitHubURL(textEditor.document.fileName, textEditor.selection)
-  vscode.window.showInformationMessage(githubURL)
   await vscode.env.openExternal(vscode.Uri.parse(githubURL))
 }
 
