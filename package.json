@@ -1,0 +1,31 @@
+{
+  "name": "vscode-extension-helloworld",
+  "version": "1.0.0",
+  "description": "Hello World extension for Visual Studio Code",
+  "publisher": "int128",
+  "main": "index.ts",
+  "type": "module",
+  "activationEvents": [],
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.helloWorld",
+        "title": "Hello World"
+      }
+    ]
+  },
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.7",
+    "@types/vscode": "1.125.0",
+    "pnpm": "11.20.0",
+    "typescript": "7.0.2"
+  },
+  "scripts": {
+    "check": "biome migrate --write && biome check --fix",
+    "typecheck": "tsc"
+  },
+  "packageManager": "pnpm@11.20.0"
+}
