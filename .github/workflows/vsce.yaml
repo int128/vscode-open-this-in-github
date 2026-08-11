@@ -8,6 +8,8 @@ on:
       - '*.yaml'
       - .github/workflows/vsce.yaml
   push:
+    tags:
+      - '*.*.*'
     branches:
       - main
     paths:
@@ -31,6 +33,7 @@ jobs:
       - run: pnpm exec vsce package
 
   publish:
+    if: github.ref_type == 'tag'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     environment:
@@ -51,5 +54,4 @@ jobs:
           client-id: ${{ secrets.AZURE_CLIENT_ID }}
           tenant-id: ${{ secrets.AZURE_TENANT_ID }}
           allow-no-subscriptions: true
-      - run: az rest -u https://app.vssps.visualstudio.com/_apis/profile/profiles/me --resource 499b84ac-1321-427f-aa17-267ca6975798
       - run: pnpm exec vsce publish --azure-credential
