@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Open this file in GitHub",
   "publisher": "int128",
+  "repository": "https://github.com/int128/vscode-open-this-in-github",
   "main": "src/index.ts",
   "type": "module",
   "activationEvents": [],
