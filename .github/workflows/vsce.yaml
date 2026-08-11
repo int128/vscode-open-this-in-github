@@ -6,7 +6,7 @@ on:
       - '**/*.ts'
       - '*.json'
       - '*.yaml'
-      - .github/workflows/publish.yaml
+      - .github/workflows/vsce.yaml
   push:
     branches:
       - main
@@ -14,7 +14,7 @@ on:
       - '**/*.ts'
       - '*.json'
       - '*.yaml'
-      - .github/workflows/publish.yaml
+      - .github/workflows/vsce.yaml
 
 jobs:
   package:
