@@ -1,7 +1,7 @@
 {
   "name": "vscode-open-this-in-github",
   "displayName": "Open this in GitHub",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "publisher": "int128",
   "repository": "https://github.com/int128/vscode-open-this-in-github",
   "main": "src/index.ts",
