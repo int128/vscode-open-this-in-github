@@ -23,12 +23,12 @@
     "@types/node": "26.2.0",
     "@types/vscode": "^1.100.0",
     "@vscode/vsce": "3.9.2",
-    "pnpm": "11.21.0",
+    "pnpm": "11.22.0",
     "typescript": "7.0.2"
   },
   "scripts": {
     "check": "biome migrate --write && biome check --fix",
     "typecheck": "tsc"
   },
-  "packageManager": "pnpm@11.21.0"
+  "packageManager": "pnpm@11.22.0"
 }
