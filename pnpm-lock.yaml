@@ -174,7 +174,7 @@ importers:
         version: 26.6.5
       '@types/vscode':
         specifier: ^1.100.0
-        version: 1.145.0
+        version: 1.146.0
       '@vscode/vsce':
         specifier: 3.9.2
         version: 3.9.2(supports-color@7.2.0)
@@ -201,16 +201,16 @@ packages:
     resolution: {integrity: sha512-IUZydyTUkDnYdstOW9pFOOUQlBjAepK5teihDE3x6yxsPJs/hsAaaYpeGxdxrgtOiJbBKSjKW7MDk7AEhb4LRg==}
     engines: {node: '>=22.0.0'}
 
-  '@azure/core-client@1.11.1':
-    resolution: {integrity: sha512-2QygG2F76ZpMP2eMztiJvAiFMu71M9rDeU7vO/QKg5Css7MgM4frUOslFjhVjRhbGaCNPtz/S8M6y46/fFKVuQ==}
+  '@azure/core-client@1.11.2':
+    resolution: {integrity: sha512-ajuIU1aMoTs/ERYrKnIqQrV5Vz3RL8mwDC5RdedIXUvR7pi6cWzeYmt0LfNz6+W91CuCO4WJG0zA6+PhU1X+hw==}
     engines: {node: '>=22.0.0'}
 
   '@azure/core-process@1.0.0':
     resolution: {integrity: sha512-/shnJ+ooO8WPxDhPEeI/2oRQuubn16gZ6CvlbpWbEswZfzwI9tI/sMAHmF3x1LuQ9yZYXfLW3TjzGMLEC5blKg==}
     engines: {node: '>=22.0.0'}
 
-  '@azure/core-rest-pipeline@1.25.0':
-    resolution: {integrity: sha512-bMs8ekJLjX8wPV+9IPBges1SLPyuDtE9g5gLDWOpxzKcoOFQnpLGkbcT1tdw3FaAmDS1gnPmMmJ6y/T5B96kIA==}
+  '@azure/core-rest-pipeline@1.25.1':
+    resolution: {integrity: sha512-fTIA3CAm/cdODqiXkO6jYOIkU2Ylld7vq65KGc70gTwl12sLQsC8v7I5t6tp2N2CfUONzZBXyeFw7KEu6Ks2zg==}
     engines: {node: '>=22.0.0'}
 
   '@azure/core-tracing@1.4.0':
@@ -229,16 +229,16 @@ packages:
     resolution: {integrity: sha512-rbAE25KUfjU/s3XHUdJgceoCP5dEOpMx85J04kF+QMdta73XkuG9JGHHinch+XIoKpBdqljin+KqURpJriSzLA==}
     engines: {node: '>=22.0.0'}
 
-  '@azure/msal-browser@5.28.0':
-    resolution: {integrity: sha512-f3yY518Z++x3ZogCbcLK6vnABgpxc8rAKGKtQibcUJKAVU9gamgh5mNAPJIRwduzXQvO2xtHx/gtmPz8iuZ8+w==}
+  '@azure/msal-browser@5.29.0':
+    resolution: {integrity: sha512-Ko/Ovw6h+Gu33mp8f0FUyddr/KDWzbGzcgR8HKZaT4wgTYljLPKJP1rcDu0RHj7pkd4CR2hCHK51XFzgvq/Q5Q==}
     engines: {node: '>=0.8.0'}
 
-  '@azure/msal-common@16.16.0':
-    resolution: {integrity: sha512-EZgd8h5nczsdRAQAgXA0A0pC5L/zj43n1jePXvUMgdwXMbH2zhb7b7Hp+Oe7ZOODK/sch2x+soD6FOrtgUbx/w==}
+  '@azure/msal-common@16.16.1':
+    resolution: {integrity: sha512-dSKdL9h/iercb4GumsKFh+wVvLe1ohuDPiviklgnQVHnY2FYNUlbQJ3E1Qd37vkof9CfraK9BQpCW1hoOg0znQ==}
     engines: {node: '>=0.8.0'}
 
-  '@azure/msal-node@7.2.0':
-    resolution: {integrity: sha512-Y87VJsMWF4jiqLqq8XYLb1o+rGc/HacwS3Zydi3bDtaVm5Sa8FlB7YrKrBFKRIYj27RJXAaDkErImMAqtM10Pg==}
+  '@azure/msal-node@7.2.1':
+    resolution: {integrity: sha512-6mntsfCNq7H1eAPSZik74jT3C5at4nRqiVk7OC+D5Hy3Pe3s76uwE4+J0xvDvlVPmoX2kasf3mSwUmzeq9rW/A==}
     engines: {node: '>=20'}
 
   '@babel/code-frame@7.29.7':
@@ -469,8 +469,8 @@ packages:
   '@types/sarif@2.1.7':
     resolution: {integrity: sha512-kRz0VEkJqWLf1LLVN4pT1cg1Z9wAuvI6L97V3m2f5B76Tg8d413ddvLBPTEHAZJlnn4XSvu0FkZtViCQGVyrXQ==}
 
-  '@types/vscode@1.145.0':
-    resolution: {integrity: sha512-mADZK4SF/j1n0+Qk4bH8NT1qTQGYDAsbhb5hStbzuB3hKP3mRH7xja5yUaIm7ExCh65Ff+C9XGwxcBvSlTCvkQ==}
+  '@types/vscode@1.146.0':
+    resolution: {integrity: sha512-OtU25faeM997QQsW+D07FN9cX06j+EEI4aQaPw/UO3HWlCM39N1W7fG8ewhdZKluut31KffyMsmDzJzgMu6t8Q==}
 
   '@typescript/typescript-aix-ppc64@7.0.2':
     resolution: {integrity: sha512-MTKKkWB7p/0E9xi1d1tHtZ5PiLkGEMIq88pK2CubZjOsLtYTLqhgIgi6zepFa+9GHZ6h05NMCkQxGKiPXMxXtQ==}
@@ -592,8 +592,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@typespec/ts-http-runtime@0.3.9':
-    resolution: {integrity: sha512-edSdeAqkdxBVzA1yL1LrLCml1YjyCVvPMtMqJpbF+6K609tHe8V6sQUzFQSGcYNhcuhOceZtjvN32+mpIth30A==}
+  '@typespec/ts-http-runtime@0.3.10':
+    resolution: {integrity: sha512-vddvvtZ7sejSlCv+OIkn2ztjB1O31Fc2JsxI/YK725r3elXXlF/J3o3lbXJFRhoeWRWK1tjdZ+GTi6Fdtrp+EA==}
     engines: {node: '>=22.0.0'}
 
   '@vscode/vsce-sign-alpine-arm64@2.0.6':
@@ -649,9 +649,9 @@ packages:
     engines: {node: '>= 20'}
     hasBin: true
 
-  agent-base@7.1.4:
-    resolution: {integrity: sha512-MnA+YT8fwfJPgBx3m60MNqakm30XOkyIoH1y6huTQvC0PwZG7ki8NacLBcrPbNoo8vEZy7Jpuk7+jMO+CUovTQ==}
-    engines: {node: '>= 14'}
+  agent-base@9.0.0:
+    resolution: {integrity: sha512-TQf59BsZnytt8GdJKLPfUZ54g/iaUL2OWDSFCCvMOhsHduDQxO8xC4PNeyIkVcA5KwL2phPSv0douC0fgWzmnA==}
+    engines: {node: '>= 20'}
 
   ajv@8.20.0:
     resolution: {integrity: sha512-Thbli+OlOj+iMPYFBVBfJ3OmCAnaSyNn4M1vz9T6Gka5Jt9ba/HIR56joy65tY6kx/FCF5VXNB819Y7/GUrBGA==}
@@ -664,8 +664,8 @@ packages:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
     engines: {node: '>=8'}
 
-  ansi-regex@6.5.0:
-    resolution: {integrity: sha512-zhvbbbdt1kbw7EJ9OQoxmQcuaNR9P5kTj7e/YdmOSU10aHWbycofJxA6jKfoEy3vlLdctOF9ZHaxLtmSm998wQ==}
+  ansi-regex@6.6.0:
+    resolution: {integrity: sha512-XZ5apbzreCbXSKwPjJstu8R0zOi247w3XYwWxtwBXgpZrCyc1Ka7p9/xY0A9/diMewmHbEKz+FIraWaEWjlN5g==}
     engines: {node: '>=12'}
 
   ansi-styles@4.3.0:
@@ -705,8 +705,8 @@ packages:
   boundary@2.0.0:
     resolution: {integrity: sha512-rJKn5ooC9u8q13IMCrW0RSp31pxBCHE3y9V/tp3TdWSLf8Em3p6Di4NBpfzbJge9YjjFEsD0RtFEjtvHL5VyEA==}
 
-  brace-expansion@5.0.12:
-    resolution: {integrity: sha512-YovQ3rzhaLMIrDjNDMkNS01tea93qhEhG5xy8f6+R0l+dw3Ki+5sCoIoI942iuLZTHWogWktgwVDhU09iNEimQ==}
+  brace-expansion@5.0.13:
+    resolution: {integrity: sha512-Vh3dmFbc4wZeox7M9I/0L9GfFd83Su4+yCck/OF9Gi/P/dAHn0RT7X4K9R7gMNMhDck3DvhR6QXsnQdjjgwNvQ==}
     engines: {node: 20 || >=22}
 
   braces@3.0.3:
@@ -942,8 +942,8 @@ packages:
     resolution: {integrity: sha512-ZUKRh6/kUFoAiTAtTYPZJ3hw9wNxx+BIBOijnlG9PnrJsCcSjs1wyyD6vJpaYtgnzDrKYRSqf3OO6Rfa93xsRg==}
     engines: {node: '>= 0.4'}
 
-  graceful-fs@4.2.11:
-    resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
+  graceful-fs@4.2.12:
+    resolution: {integrity: sha512-iuyGF2E4oafQfPsRrG2wtY2ILupMhvtdrhzrxB+0VcjsPpSPttpfYdjnGFGsTi5MaJFjI1jOKHPQ6UTbTj9TAw==}
 
   has-flag@4.0.0:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
@@ -972,13 +972,13 @@ packages:
   htmlparser2@10.1.0:
     resolution: {integrity: sha512-VTZkM9GWRAtEpveh7MSF6SjjrpNVNNVJfFup7xTY3UpFtm67foy9HDVXneLtFVt4pMz5kZtgNcvCniNFb1hlEQ==}
 
-  http-proxy-agent@7.0.2:
-    resolution: {integrity: sha512-T1gkAiYYDWYx3V5Bmyu7HcfcvL7mUrTWiM6yOfa3PIphViJ/gFPbvidQ+veqSOHci/PxBcDabeUNCzpOODJZig==}
-    engines: {node: '>= 14'}
+  http-proxy-agent@9.1.0:
+    resolution: {integrity: sha512-2NxoveTT58mjYT4n3RPTEfCZGLMbidoO8XEieXfpSYxu+PQJ1qpx4ypwH6N+uF9twBPIvRRgvkvW5HUTYWENig==}
+    engines: {node: '>= 20'}
 
-  https-proxy-agent@7.0.6:
-    resolution: {integrity: sha512-vK9P5/iUfdl95AI+JVyUuIcVtd4ofvtrOr3HNtM2yxC9bnMbEdp3x01OhQNnjb8IJYi38VlTE3mBXwcfvywuSw==}
-    engines: {node: '>= 14'}
+  https-proxy-agent@9.1.0:
+    resolution: {integrity: sha512-ag87y7cJJ9/3+GxFr8Oy4O5faDsGRGnBGsJj/YjOSsSx/5eadKLYTMPlzuR6obgoCDDm0abAAZitXXQkMOPSpA==}
+    engines: {node: '>= 20'}
 
   iconv-lite@0.6.3:
     resolution: {integrity: sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw==}
@@ -1262,6 +1262,15 @@ packages:
     engines: {node: '>=10'}
     deprecated: No longer maintained. Please contact the author of the relevant native addon; alternatives are available.
     hasBin: true
+
+  proxy-agent-negotiate@1.1.0:
+    resolution: {integrity: sha512-N8IBcM3UgCVzz2L2Lqv8DVntDnnC8/hiV4nEDUPkqq72TPUgYWjQc+bdZlBPZK9LzPAvOY//gAt0S0DApoOXWQ==}
+    engines: {node: '>= 20'}
+    peerDependencies:
+      kerberos: ^2.0.0
+    peerDependenciesMeta:
+      kerberos:
+        optional: true
 
   pump@3.0.4:
     resolution: {integrity: sha512-VS7sjc6KR7e1ukRFhQSY5LM2uBWAUPiOPa/A3mkKmiMwSmRFUITt0xuj+/lesgnCv+dPIEYlkzrcyXgquIHMcA==}
@@ -1549,32 +1558,35 @@ snapshots:
       '@azure/core-util': 1.14.0(supports-color@7.2.0)
       tslib: 2.9.1
     transitivePeerDependencies:
+      - kerberos
       - supports-color
 
-  '@azure/core-client@1.11.1(supports-color@7.2.0)':
+  '@azure/core-client@1.11.2(supports-color@7.2.0)':
     dependencies:
       '@azure/abort-controller': 2.2.0
       '@azure/core-auth': 1.11.0(supports-color@7.2.0)
-      '@azure/core-rest-pipeline': 1.25.0(supports-color@7.2.0)
+      '@azure/core-rest-pipeline': 1.25.1(supports-color@7.2.0)
       '@azure/core-tracing': 1.4.0
       '@azure/core-util': 1.14.0(supports-color@7.2.0)
       '@azure/logger': 1.4.0(supports-color@7.2.0)
       tslib: 2.9.1
     transitivePeerDependencies:
+      - kerberos
       - supports-color
 
   '@azure/core-process@1.0.0': {}
 
-  '@azure/core-rest-pipeline@1.25.0(supports-color@7.2.0)':
+  '@azure/core-rest-pipeline@1.25.1(supports-color@7.2.0)':
     dependencies:
       '@azure/abort-controller': 2.2.0
       '@azure/core-auth': 1.11.0(supports-color@7.2.0)
       '@azure/core-tracing': 1.4.0
       '@azure/core-util': 1.14.0(supports-color@7.2.0)
       '@azure/logger': 1.4.0(supports-color@7.2.0)
-      '@typespec/ts-http-runtime': 0.3.9(supports-color@7.2.0)
+      '@typespec/ts-http-runtime': 0.3.10(supports-color@7.2.0)
       tslib: 2.9.1
     transitivePeerDependencies:
+      - kerberos
       - supports-color
 
   '@azure/core-tracing@1.4.0':
@@ -1584,44 +1596,47 @@ snapshots:
   '@azure/core-util@1.14.0(supports-color@7.2.0)':
     dependencies:
       '@azure/abort-controller': 2.2.0
-      '@typespec/ts-http-runtime': 0.3.9(supports-color@7.2.0)
+      '@typespec/ts-http-runtime': 0.3.10(supports-color@7.2.0)
       tslib: 2.9.1
     transitivePeerDependencies:
+      - kerberos
       - supports-color
 
   '@azure/identity@4.14.1(supports-color@7.2.0)':
     dependencies:
       '@azure/abort-controller': 2.2.0
       '@azure/core-auth': 1.11.0(supports-color@7.2.0)
-      '@azure/core-client': 1.11.1(supports-color@7.2.0)
+      '@azure/core-client': 1.11.2(supports-color@7.2.0)
       '@azure/core-process': 1.0.0
-      '@azure/core-rest-pipeline': 1.25.0(supports-color@7.2.0)
+      '@azure/core-rest-pipeline': 1.25.1(supports-color@7.2.0)
       '@azure/core-tracing': 1.4.0
       '@azure/core-util': 1.14.0(supports-color@7.2.0)
       '@azure/logger': 1.4.0(supports-color@7.2.0)
-      '@azure/msal-browser': 5.28.0
-      '@azure/msal-node': 7.2.0
+      '@azure/msal-browser': 5.29.0
+      '@azure/msal-node': 7.2.1
       open: 11.0.4
       tslib: 2.9.1
     transitivePeerDependencies:
+      - kerberos
       - supports-color
 
   '@azure/logger@1.4.0(supports-color@7.2.0)':
     dependencies:
-      '@typespec/ts-http-runtime': 0.3.9(supports-color@7.2.0)
+      '@typespec/ts-http-runtime': 0.3.10(supports-color@7.2.0)
       tslib: 2.9.1
     transitivePeerDependencies:
+      - kerberos
       - supports-color
 
-  '@azure/msal-browser@5.28.0':
+  '@azure/msal-browser@5.29.0':
     dependencies:
-      '@azure/msal-common': 16.16.0
+      '@azure/msal-common': 16.16.1
 
-  '@azure/msal-common@16.16.0': {}
+  '@azure/msal-common@16.16.1': {}
 
-  '@azure/msal-node@7.2.0':
+  '@azure/msal-node@7.2.1':
     dependencies:
-      '@azure/msal-common': 16.16.0
+      '@azure/msal-common': 16.16.1
       jsonwebtoken: 9.0.3
 
   '@babel/code-frame@7.29.7':
@@ -1833,7 +1848,7 @@ snapshots:
 
   '@types/sarif@2.1.7': {}
 
-  '@types/vscode@1.145.0': {}
+  '@types/vscode@1.146.0': {}
 
   '@typescript/typescript-aix-ppc64@7.0.2':
     optional: true
@@ -1895,12 +1910,13 @@ snapshots:
   '@typescript/typescript-win32-x64@7.0.2':
     optional: true
 
-  '@typespec/ts-http-runtime@0.3.9(supports-color@7.2.0)':
+  '@typespec/ts-http-runtime@0.3.10(supports-color@7.2.0)':
     dependencies:
-      http-proxy-agent: 7.0.2(supports-color@7.2.0)
-      https-proxy-agent: 7.0.6(supports-color@7.2.0)
+      http-proxy-agent: 9.1.0(supports-color@7.2.0)
+      https-proxy-agent: 9.1.0(supports-color@7.2.0)
       tslib: 2.9.1
     transitivePeerDependencies:
+      - kerberos
       - supports-color
 
   '@vscode/vsce-sign-alpine-arm64@2.0.6':
@@ -1976,9 +1992,10 @@ snapshots:
     optionalDependencies:
       keytar: 7.9.0
     transitivePeerDependencies:
+      - kerberos
       - supports-color
 
-  agent-base@7.1.4: {}
+  agent-base@9.0.0: {}
 
   ajv@8.20.0:
     dependencies:
@@ -1993,7 +2010,7 @@ snapshots:
 
   ansi-regex@5.0.1: {}
 
-  ansi-regex@6.5.0: {}
+  ansi-regex@6.6.0: {}
 
   ansi-styles@4.3.0:
     dependencies:
@@ -2030,7 +2047,7 @@ snapshots:
 
   boundary@2.0.0: {}
 
-  brace-expansion@5.0.12:
+  brace-expansion@5.0.13:
     dependencies:
       balanced-match: 4.0.4
 
@@ -2250,7 +2267,7 @@ snapshots:
 
   fs-extra@11.4.1:
     dependencies:
-      graceful-fs: 4.2.11
+      graceful-fs: 4.2.12
       jsonfile: 6.2.1
       universalify: 2.0.1
 
@@ -2298,7 +2315,7 @@ snapshots:
 
   gopd@1.2.0: {}
 
-  graceful-fs@4.2.11: {}
+  graceful-fs@4.2.12: {}
 
   has-flag@4.0.0: {}
 
@@ -2327,18 +2344,22 @@ snapshots:
       domutils: 3.2.2
       entities: 7.0.1
 
-  http-proxy-agent@7.0.2(supports-color@7.2.0):
+  http-proxy-agent@9.1.0(supports-color@7.2.0):
     dependencies:
-      agent-base: 7.1.4
+      agent-base: 9.0.0
       debug: 4.4.3(supports-color@7.2.0)
+      proxy-agent-negotiate: 1.1.0
     transitivePeerDependencies:
+      - kerberos
       - supports-color
 
-  https-proxy-agent@7.0.6(supports-color@7.2.0):
+  https-proxy-agent@9.1.0(supports-color@7.2.0):
     dependencies:
-      agent-base: 7.1.4
+      agent-base: 9.0.0
       debug: 4.4.3(supports-color@7.2.0)
+      proxy-agent-negotiate: 1.1.0
     transitivePeerDependencies:
+      - kerberos
       - supports-color
 
   iconv-lite@0.6.3:
@@ -2402,7 +2423,7 @@ snapshots:
     dependencies:
       universalify: 2.0.1
     optionalDependencies:
-      graceful-fs: 4.2.11
+      graceful-fs: 4.2.12
 
   jsonwebtoken@9.0.3:
     dependencies:
@@ -2497,7 +2518,7 @@ snapshots:
 
   minimatch@10.2.6:
     dependencies:
-      brace-expansion: 5.0.12
+      brace-expansion: 5.0.13
 
   minimist@1.2.8:
     optional: true
@@ -2629,6 +2650,8 @@ snapshots:
       tar-fs: 2.1.5
       tunnel-agent: 0.6.0
     optional: true
+
+  proxy-agent-negotiate@1.1.0: {}
 
   pump@3.0.4:
     dependencies:
@@ -2790,7 +2813,7 @@ snapshots:
 
   strip-ansi@7.2.0:
     dependencies:
-      ansi-regex: 6.5.0
+      ansi-regex: 6.6.0
 
   strip-json-comments@2.0.1:
     optional: true
