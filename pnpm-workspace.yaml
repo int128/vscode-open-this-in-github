@@ -1,4 +1,4 @@
 allowBuilds:
-  '@vscode/vsce-sign': false
+  "@vscode/vsce-sign": false
   keytar: false
   pnpm: false
